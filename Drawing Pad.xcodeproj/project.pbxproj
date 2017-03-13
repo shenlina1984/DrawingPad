@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		53D08B4F1E76C96200B29A94 /* BrightnessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53D08B4A1E76C96200B29A94 /* BrightnessView.swift */; };
+		53D08B501E76C96200B29A94 /* ColorUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53D08B4B1E76C96200B29A94 /* ColorUtils.swift */; };
+		53D08B511E76C96200B29A94 /* ColorWheel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53D08B4C1E76C96200B29A94 /* ColorWheel.swift */; };
+		53D08B521E76C96200B29A94 /* SelectedColorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53D08B4D1E76C96200B29A94 /* SelectedColorView.swift */; };
+		53D08B531E76C96200B29A94 /* SwiftHSVColorPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53D08B4E1E76C96200B29A94 /* SwiftHSVColorPicker.swift */; };
+		53D08B551E76CCB000B29A94 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53D08B541E76CCB000B29A94 /* SettingsViewController.swift */; };
+		53D08B571E76E69B00B29A94 /* ColorPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53D08B561E76E69B00B29A94 /* ColorPickerViewController.swift */; };
 		784660971E6FE02D00BD123F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 784660961E6FE02D00BD123F /* AppDelegate.swift */; };
 		7846609B1E6FE02D00BD123F /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7846609A1E6FE02D00BD123F /* DataViewController.swift */; };
 		784660A01E6FE02D00BD123F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7846609E1E6FE02D00BD123F /* Main.storyboard */; };
@@ -14,7 +21,6 @@
 		784660A51E6FE02D00BD123F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 784660A31E6FE02D00BD123F /* LaunchScreen.storyboard */; };
 		784660B01E6FE02D00BD123F /* Drawing_PadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 784660AF1E6FE02D00BD123F /* Drawing_PadTests.swift */; };
 		784660BB1E6FE02D00BD123F /* Drawing_PadUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 784660BA1E6FE02D00BD123F /* Drawing_PadUITests.swift */; };
-		784660C91E6FF5CB00BD123F /* test.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 784660C81E6FF5CB00BD123F /* test.storyboard */; };
 		78DB4B5E1E751625001F5354 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78DB4B5D1E751625001F5354 /* Foundation.framework */; };
 		78DB4B601E751662001F5354 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78DB4B5F1E751662001F5354 /* CoreGraphics.framework */; };
 		78DB4B621E7516E1001F5354 /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78DB4B611E7516E1001F5354 /* Twitter.framework */; };
@@ -41,6 +47,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		53D08B4A1E76C96200B29A94 /* BrightnessView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BrightnessView.swift; sourceTree = "<group>"; };
+		53D08B4B1E76C96200B29A94 /* ColorUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorUtils.swift; sourceTree = "<group>"; };
+		53D08B4C1E76C96200B29A94 /* ColorWheel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorWheel.swift; sourceTree = "<group>"; };
+		53D08B4D1E76C96200B29A94 /* SelectedColorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectedColorView.swift; sourceTree = "<group>"; };
+		53D08B4E1E76C96200B29A94 /* SwiftHSVColorPicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftHSVColorPicker.swift; sourceTree = "<group>"; };
+		53D08B541E76CCB000B29A94 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		53D08B561E76E69B00B29A94 /* ColorPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorPickerViewController.swift; sourceTree = "<group>"; };
 		784660931E6FE02D00BD123F /* Drawing Pad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Drawing Pad.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		784660961E6FE02D00BD123F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7846609A1E6FE02D00BD123F /* DataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
@@ -54,7 +67,6 @@
 		784660B61E6FE02D00BD123F /* Drawing PadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Drawing PadUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		784660BA1E6FE02D00BD123F /* Drawing_PadUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drawing_PadUITests.swift; sourceTree = "<group>"; };
 		784660BC1E6FE02D00BD123F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		784660C81E6FF5CB00BD123F /* test.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = test.storyboard; sourceTree = "<group>"; };
 		78DB4B5D1E751625001F5354 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		78DB4B5F1E751662001F5354 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		78DB4B611E7516E1001F5354 /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
@@ -92,6 +104,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		53D08B491E76C8E300B29A94 /* ColorPicker */ = {
+			isa = PBXGroup;
+			children = (
+				53D08B4A1E76C96200B29A94 /* BrightnessView.swift */,
+				53D08B4B1E76C96200B29A94 /* ColorUtils.swift */,
+				53D08B4C1E76C96200B29A94 /* ColorWheel.swift */,
+				53D08B4D1E76C96200B29A94 /* SelectedColorView.swift */,
+				53D08B4E1E76C96200B29A94 /* SwiftHSVColorPicker.swift */,
+			);
+			path = ColorPicker;
+			sourceTree = "<group>";
+		};
 		7846608A1E6FE02D00BD123F = {
 			isa = PBXGroup;
 			children = (
@@ -116,15 +140,17 @@
 		784660951E6FE02D00BD123F /* Drawing Pad */ = {
 			isa = PBXGroup;
 			children = (
+				53D08B491E76C8E300B29A94 /* ColorPicker */,
 				784660961E6FE02D00BD123F /* AppDelegate.swift */,
+				53D08B541E76CCB000B29A94 /* SettingsViewController.swift */,
 				7846609A1E6FE02D00BD123F /* DataViewController.swift */,
 				7846609E1E6FE02D00BD123F /* Main.storyboard */,
 				784660A11E6FE02D00BD123F /* Assets.xcassets */,
 				784660A31E6FE02D00BD123F /* LaunchScreen.storyboard */,
 				784660A61E6FE02D00BD123F /* Info.plist */,
-				784660C81E6FF5CB00BD123F /* test.storyboard */,
 				78DB4B651E75EED0001F5354 /* CanvasView.swift */,
 				78DB4B671E75F767001F5354 /* DrawAttr.swift */,
+				53D08B561E76E69B00B29A94 /* ColorPickerViewController.swift */,
 			);
 			path = "Drawing Pad";
 			sourceTree = "<group>";
@@ -268,7 +294,6 @@
 			files = (
 				784660A51E6FE02D00BD123F /* LaunchScreen.storyboard in Resources */,
 				784660A21E6FE02D00BD123F /* Assets.xcassets in Resources */,
-				784660C91E6FF5CB00BD123F /* test.storyboard in Resources */,
 				784660A01E6FE02D00BD123F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -297,7 +322,14 @@
 				78DB4B661E75EED0001F5354 /* CanvasView.swift in Sources */,
 				7846609B1E6FE02D00BD123F /* DataViewController.swift in Sources */,
 				78DB4B681E75F767001F5354 /* DrawAttr.swift in Sources */,
+				53D08B551E76CCB000B29A94 /* SettingsViewController.swift in Sources */,
+				53D08B571E76E69B00B29A94 /* ColorPickerViewController.swift in Sources */,
+				53D08B501E76C96200B29A94 /* ColorUtils.swift in Sources */,
+				53D08B531E76C96200B29A94 /* SwiftHSVColorPicker.swift in Sources */,
+				53D08B511E76C96200B29A94 /* ColorWheel.swift in Sources */,
+				53D08B521E76C96200B29A94 /* SelectedColorView.swift in Sources */,
 				784660971E6FE02D00BD123F /* AppDelegate.swift in Sources */,
+				53D08B4F1E76C96200B29A94 /* BrightnessView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

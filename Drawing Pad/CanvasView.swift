@@ -13,8 +13,6 @@ var drawAvailable: Bool=false
 var eraseAvailable:Bool=false
 var deleteFlag:Bool=false
 var undoDeleteFlag:Bool=false
-var width: CGFloat=20.0
-var color_config = UIColor(displayP3Red: 1.0, green: 0.0, blue: 0.0, alpha: 1.0)
 struct Scribbles{
     var color: UIColor;
     var path: [CGPoint];
@@ -28,12 +26,13 @@ struct Scribbles{
 var undoList: [Scribbles]=[]
 //let context=UIGraphicsGetCurrentContext()
 class CanvasView: UIView {
-    
+    var width: CGFloat=10.0
+    var color_config = UIColor(displayP3Red: 1.0, green: 0.0, blue: 0.0, alpha: 1.0)
     //var shape: ShapeType = .Line
     var first: CGPoint = CGPoint.zero
     var last : CGPoint = CGPoint.zero
     var points: [CGPoint] = []
-    var color_scr=UIColor(displayP3Red: 1.0, green: 0.0, blue: 0.0, alpha: 1.0)
+    var color_scr:UIColor=UIColor(displayP3Red: 1.0, green: 0.0, blue: 0.0, alpha: 1.0)
     var a=undoList.count
     
     
@@ -44,9 +43,10 @@ class CanvasView: UIView {
         // Drawing code
         if let context = UIGraphicsGetCurrentContext() {
             if(deleteFlag==false){
-                context.setLineWidth(width)
+               
                 if undoList.count>0{
                     for i in 0...undoList.count-1{
+                        context.setLineWidth(undoList[i].width)
                         context.setStrokeColor(undoList[i].color.cgColor)
                         context.move(to: CGPoint(x: undoList[i].path.first!.x, y: undoList[i].path.first!.y))
                         for p in undoList[i].path {
@@ -62,6 +62,7 @@ class CanvasView: UIView {
                         color_scr=self.backgroundColor!
                     }
                     context.setStrokeColor(color_scr.cgColor)
+                    context.setLineWidth(width)
                     context.move(to: CGPoint(x: first.x, y: first.y))
                     for p in points {
                         context.addLine(to: CGPoint(x: p.x, y: p.y))
@@ -78,6 +79,7 @@ class CanvasView: UIView {
                         color_scr=self.backgroundColor!
                     }
                     context.setStrokeColor(color_scr.cgColor)
+                    context.setLineWidth(width)
                     context.move(to: CGPoint(x: first.x, y: first.y))
                     for p in points {
                         context.addLine(to: CGPoint(x: p.x, y: p.y))
@@ -98,10 +100,31 @@ class CanvasView: UIView {
     }
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         if let touch = touches.first {
+            if let t1=alpha_s{
+                if let t2=selectedColor{
+                    let colors = t2.cgColor.components
+                color_config=UIColor(displayP3Red: colors![0], green: colors![1], blue: colors![2], alpha: t1)
+
+            }
+                else{
+                    color_config=UIColor(displayP3Red: 1.0, green: 0.0, blue: 0.0, alpha: t1)
+                }
+            }
+            else{
+                if let t2=selectedColor{
+                    let colors = t2.cgColor.components
+                    color_config=UIColor(displayP3Red: colors![0], green: colors![1], blue: colors![2], alpha: 1.0)
+                    
+                }
+                else{
+                    color_config=UIColor(displayP3Red: 1.0, green: 0.0, blue: 0.0, alpha: 1.0)
+                }
+            }
+            
+            if let t=width_s{
+                width=t
+            }
             first = touch.location(in: self)
-            
-                
-            
             last = first
             if (drawAvailable||eraseAvailable){
                 points.append(first)
