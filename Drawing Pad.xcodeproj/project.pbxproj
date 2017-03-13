@@ -1,0 +1,570 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		784660971E6FE02D00BD123F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 784660961E6FE02D00BD123F /* AppDelegate.swift */; };
+		7846609B1E6FE02D00BD123F /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7846609A1E6FE02D00BD123F /* DataViewController.swift */; };
+		784660A01E6FE02D00BD123F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7846609E1E6FE02D00BD123F /* Main.storyboard */; };
+		784660A21E6FE02D00BD123F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 784660A11E6FE02D00BD123F /* Assets.xcassets */; };
+		784660A51E6FE02D00BD123F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 784660A31E6FE02D00BD123F /* LaunchScreen.storyboard */; };
+		784660B01E6FE02D00BD123F /* Drawing_PadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 784660AF1E6FE02D00BD123F /* Drawing_PadTests.swift */; };
+		784660BB1E6FE02D00BD123F /* Drawing_PadUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 784660BA1E6FE02D00BD123F /* Drawing_PadUITests.swift */; };
+		784660C91E6FF5CB00BD123F /* test.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 784660C81E6FF5CB00BD123F /* test.storyboard */; };
+		78DB4B5E1E751625001F5354 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78DB4B5D1E751625001F5354 /* Foundation.framework */; };
+		78DB4B601E751662001F5354 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78DB4B5F1E751662001F5354 /* CoreGraphics.framework */; };
+		78DB4B621E7516E1001F5354 /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78DB4B611E7516E1001F5354 /* Twitter.framework */; };
+		78DB4B641E751704001F5354 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78DB4B631E751704001F5354 /* UIKit.framework */; };
+		78DB4B661E75EED0001F5354 /* CanvasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78DB4B651E75EED0001F5354 /* CanvasView.swift */; };
+		78DB4B681E75F767001F5354 /* DrawAttr.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78DB4B671E75F767001F5354 /* DrawAttr.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		784660AC1E6FE02D00BD123F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7846608B1E6FE02D00BD123F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 784660921E6FE02D00BD123F;
+			remoteInfo = "Drawing Pad";
+		};
+		784660B71E6FE02D00BD123F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7846608B1E6FE02D00BD123F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 784660921E6FE02D00BD123F;
+			remoteInfo = "Drawing Pad";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		784660931E6FE02D00BD123F /* Drawing Pad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Drawing Pad.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		784660961E6FE02D00BD123F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7846609A1E6FE02D00BD123F /* DataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
+		7846609F1E6FE02D00BD123F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		784660A11E6FE02D00BD123F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		784660A41E6FE02D00BD123F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		784660A61E6FE02D00BD123F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		784660AB1E6FE02D00BD123F /* Drawing PadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Drawing PadTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		784660AF1E6FE02D00BD123F /* Drawing_PadTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drawing_PadTests.swift; sourceTree = "<group>"; };
+		784660B11E6FE02D00BD123F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		784660B61E6FE02D00BD123F /* Drawing PadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Drawing PadUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		784660BA1E6FE02D00BD123F /* Drawing_PadUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drawing_PadUITests.swift; sourceTree = "<group>"; };
+		784660BC1E6FE02D00BD123F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		784660C81E6FF5CB00BD123F /* test.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = test.storyboard; sourceTree = "<group>"; };
+		78DB4B5D1E751625001F5354 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		78DB4B5F1E751662001F5354 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		78DB4B611E7516E1001F5354 /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
+		78DB4B631E751704001F5354 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		78DB4B651E75EED0001F5354 /* CanvasView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CanvasView.swift; sourceTree = "<group>"; };
+		78DB4B671E75F767001F5354 /* DrawAttr.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawAttr.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		784660901E6FE02D00BD123F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78DB4B641E751704001F5354 /* UIKit.framework in Frameworks */,
+				78DB4B621E7516E1001F5354 /* Twitter.framework in Frameworks */,
+				78DB4B601E751662001F5354 /* CoreGraphics.framework in Frameworks */,
+				78DB4B5E1E751625001F5354 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		784660A81E6FE02D00BD123F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		784660B31E6FE02D00BD123F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7846608A1E6FE02D00BD123F = {
+			isa = PBXGroup;
+			children = (
+				784660951E6FE02D00BD123F /* Drawing Pad */,
+				784660AE1E6FE02D00BD123F /* Drawing PadTests */,
+				784660B91E6FE02D00BD123F /* Drawing PadUITests */,
+				784660941E6FE02D00BD123F /* Products */,
+				78DB4B5C1E751625001F5354 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		784660941E6FE02D00BD123F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				784660931E6FE02D00BD123F /* Drawing Pad.app */,
+				784660AB1E6FE02D00BD123F /* Drawing PadTests.xctest */,
+				784660B61E6FE02D00BD123F /* Drawing PadUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		784660951E6FE02D00BD123F /* Drawing Pad */ = {
+			isa = PBXGroup;
+			children = (
+				784660961E6FE02D00BD123F /* AppDelegate.swift */,
+				7846609A1E6FE02D00BD123F /* DataViewController.swift */,
+				7846609E1E6FE02D00BD123F /* Main.storyboard */,
+				784660A11E6FE02D00BD123F /* Assets.xcassets */,
+				784660A31E6FE02D00BD123F /* LaunchScreen.storyboard */,
+				784660A61E6FE02D00BD123F /* Info.plist */,
+				784660C81E6FF5CB00BD123F /* test.storyboard */,
+				78DB4B651E75EED0001F5354 /* CanvasView.swift */,
+				78DB4B671E75F767001F5354 /* DrawAttr.swift */,
+			);
+			path = "Drawing Pad";
+			sourceTree = "<group>";
+		};
+		784660AE1E6FE02D00BD123F /* Drawing PadTests */ = {
+			isa = PBXGroup;
+			children = (
+				784660AF1E6FE02D00BD123F /* Drawing_PadTests.swift */,
+				784660B11E6FE02D00BD123F /* Info.plist */,
+			);
+			path = "Drawing PadTests";
+			sourceTree = "<group>";
+		};
+		784660B91E6FE02D00BD123F /* Drawing PadUITests */ = {
+			isa = PBXGroup;
+			children = (
+				784660BA1E6FE02D00BD123F /* Drawing_PadUITests.swift */,
+				784660BC1E6FE02D00BD123F /* Info.plist */,
+			);
+			path = "Drawing PadUITests";
+			sourceTree = "<group>";
+		};
+		78DB4B5C1E751625001F5354 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				78DB4B631E751704001F5354 /* UIKit.framework */,
+				78DB4B611E7516E1001F5354 /* Twitter.framework */,
+				78DB4B5F1E751662001F5354 /* CoreGraphics.framework */,
+				78DB4B5D1E751625001F5354 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		784660921E6FE02D00BD123F /* Drawing Pad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 784660BF1E6FE02D00BD123F /* Build configuration list for PBXNativeTarget "Drawing Pad" */;
+			buildPhases = (
+				7846608F1E6FE02D00BD123F /* Sources */,
+				784660901E6FE02D00BD123F /* Frameworks */,
+				784660911E6FE02D00BD123F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Drawing Pad";
+			productName = "Drawing Pad";
+			productReference = 784660931E6FE02D00BD123F /* Drawing Pad.app */;
+			productType = "com.apple.product-type.application";
+		};
+		784660AA1E6FE02D00BD123F /* Drawing PadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 784660C21E6FE02D00BD123F /* Build configuration list for PBXNativeTarget "Drawing PadTests" */;
+			buildPhases = (
+				784660A71E6FE02D00BD123F /* Sources */,
+				784660A81E6FE02D00BD123F /* Frameworks */,
+				784660A91E6FE02D00BD123F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				784660AD1E6FE02D00BD123F /* PBXTargetDependency */,
+			);
+			name = "Drawing PadTests";
+			productName = "Drawing PadTests";
+			productReference = 784660AB1E6FE02D00BD123F /* Drawing PadTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		784660B51E6FE02D00BD123F /* Drawing PadUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 784660C51E6FE02D00BD123F /* Build configuration list for PBXNativeTarget "Drawing PadUITests" */;
+			buildPhases = (
+				784660B21E6FE02D00BD123F /* Sources */,
+				784660B31E6FE02D00BD123F /* Frameworks */,
+				784660B41E6FE02D00BD123F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				784660B81E6FE02D00BD123F /* PBXTargetDependency */,
+			);
+			name = "Drawing PadUITests";
+			productName = "Drawing PadUITests";
+			productReference = 784660B61E6FE02D00BD123F /* Drawing PadUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7846608B1E6FE02D00BD123F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Lina Shen";
+				TargetAttributes = {
+					784660921E6FE02D00BD123F = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = KB44HLTTHX;
+						ProvisioningStyle = Automatic;
+					};
+					784660AA1E6FE02D00BD123F = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 784660921E6FE02D00BD123F;
+					};
+					784660B51E6FE02D00BD123F = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 784660921E6FE02D00BD123F;
+					};
+				};
+			};
+			buildConfigurationList = 7846608E1E6FE02D00BD123F /* Build configuration list for PBXProject "Drawing Pad" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7846608A1E6FE02D00BD123F;
+			productRefGroup = 784660941E6FE02D00BD123F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				784660921E6FE02D00BD123F /* Drawing Pad */,
+				784660AA1E6FE02D00BD123F /* Drawing PadTests */,
+				784660B51E6FE02D00BD123F /* Drawing PadUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		784660911E6FE02D00BD123F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				784660A51E6FE02D00BD123F /* LaunchScreen.storyboard in Resources */,
+				784660A21E6FE02D00BD123F /* Assets.xcassets in Resources */,
+				784660C91E6FF5CB00BD123F /* test.storyboard in Resources */,
+				784660A01E6FE02D00BD123F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		784660A91E6FE02D00BD123F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		784660B41E6FE02D00BD123F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7846608F1E6FE02D00BD123F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78DB4B661E75EED0001F5354 /* CanvasView.swift in Sources */,
+				7846609B1E6FE02D00BD123F /* DataViewController.swift in Sources */,
+				78DB4B681E75F767001F5354 /* DrawAttr.swift in Sources */,
+				784660971E6FE02D00BD123F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		784660A71E6FE02D00BD123F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				784660B01E6FE02D00BD123F /* Drawing_PadTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		784660B21E6FE02D00BD123F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				784660BB1E6FE02D00BD123F /* Drawing_PadUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		784660AD1E6FE02D00BD123F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 784660921E6FE02D00BD123F /* Drawing Pad */;
+			targetProxy = 784660AC1E6FE02D00BD123F /* PBXContainerItemProxy */;
+		};
+		784660B81E6FE02D00BD123F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 784660921E6FE02D00BD123F /* Drawing Pad */;
+			targetProxy = 784660B71E6FE02D00BD123F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7846609E1E6FE02D00BD123F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7846609F1E6FE02D00BD123F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		784660A31E6FE02D00BD123F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				784660A41E6FE02D00BD123F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		784660BD1E6FE02D00BD123F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		784660BE1E6FE02D00BD123F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		784660C01E6FE02D00BD123F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = KB44HLTTHX;
+				INFOPLIST_FILE = "Drawing Pad/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.depaul.Drawing-Pad";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		784660C11E6FE02D00BD123F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = KB44HLTTHX;
+				INFOPLIST_FILE = "Drawing Pad/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.depaul.Drawing-Pad";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		784660C31E6FE02D00BD123F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Drawing PadTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.depaul.Drawing-PadTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Drawing Pad.app/Drawing Pad";
+			};
+			name = Debug;
+		};
+		784660C41E6FE02D00BD123F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Drawing PadTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.depaul.Drawing-PadTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Drawing Pad.app/Drawing Pad";
+			};
+			name = Release;
+		};
+		784660C61E6FE02D00BD123F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Drawing PadUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.depaul.Drawing-PadUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Drawing Pad";
+			};
+			name = Debug;
+		};
+		784660C71E6FE02D00BD123F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Drawing PadUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.depaul.Drawing-PadUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Drawing Pad";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7846608E1E6FE02D00BD123F /* Build configuration list for PBXProject "Drawing Pad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				784660BD1E6FE02D00BD123F /* Debug */,
+				784660BE1E6FE02D00BD123F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		784660BF1E6FE02D00BD123F /* Build configuration list for PBXNativeTarget "Drawing Pad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				784660C01E6FE02D00BD123F /* Debug */,
+				784660C11E6FE02D00BD123F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		784660C21E6FE02D00BD123F /* Build configuration list for PBXNativeTarget "Drawing PadTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				784660C31E6FE02D00BD123F /* Debug */,
+				784660C41E6FE02D00BD123F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		784660C51E6FE02D00BD123F /* Build configuration list for PBXNativeTarget "Drawing PadUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				784660C61E6FE02D00BD123F /* Debug */,
+				784660C71E6FE02D00BD123F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7846608B1E6FE02D00BD123F /* Project object */;
+}
